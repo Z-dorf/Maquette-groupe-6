@@ -1,24 +1,37 @@
-@font-face {
+/*@font-face {
     font-family: mantekaFont;
-    src: url(manteka.woff); /*to be fixed*/
-} 
+    src: url(manteka.woff); to be fixed
+} */
+
+
+header{
+    background: url("media/background+header/header.png") no-repeat;
+    height: 800px;
+}
 
 
 h1{
     text-transform: uppercase;
     font-family: 'manteka','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
 /* background color : rgb 190 46 71 */ 
 
-section {
-    background-color :rgb(190, 46, 71) ;
-}
-
-footer{
-    background-image : url("media/background+header/background.png");
+section{
+    margin-top: 5em;
+    padding-top: 2em;
+    background-color: rgb(190, 46, 71);
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: space-around;  */
 }
 
 /*form{
     background-color: 
     opacity: 100%; 
 }*/
+
+footer{
+    background-image : url("media/background+header/background.png");
+}

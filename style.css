@@ -1,1 +1,24 @@
+@font-face {
+    font-family: mantekaFont;
+    src: url(manteka.woff); /*to be fixed*/
+} 
+
+
+h1{
+    text-transform: uppercase;
+    font-family: 'manteka','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 /* background color : rgb 190 46 71 */ 
+
+section {
+    background-color :rgb(190, 46, 71) ;
+}
+
+footer{
+    background-image : url("media/background+header/background.png");
+}
+
+/*form{
+    background-color: 
+    opacity: 100%; 
+}*/

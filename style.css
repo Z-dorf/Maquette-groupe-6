@@ -46,3 +46,16 @@ img{
 footer{
     background-image : url("media/background+header/background.png");
 }
+
+.footerLogo{
+    font-size: 155px;
+}
+
+.logo{
+    max-height: 7%;
+    max-width: 7%;
+}
+
+.color-navbar{
+    background-color: rgb(190, 46, 71);
+}

@@ -99,14 +99,23 @@ input{
 }
 
 .footerLogo{
-    font-size: 155px;
+    font-size: 300%;
+    /*background-color: white;
+     border: white solid;
+    border-radius: 10px;
+    border-style: hidden;*/
 }
-
-/* .logo{
+ 
+.logo{
+    color: white;
     max-height: 7%;
     max-width: 7%;
-} */
+} 
 
 .color-navbar{
     background-color: rgb(190, 46, 71);
+}
+
+.footerBG{
+    background-color: rgb(187, 47, 72);
 }

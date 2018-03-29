@@ -10,7 +10,7 @@
 
 .headerH1{
     text-align: center;
-    font-size: 28px;
+    font-size: 71%;
     text-transform: uppercase;
     font-family: "manteka";
     color: black;
@@ -30,7 +30,7 @@
 
 .pFont{
     font-family: "manteka";
-    font-size: 14px;
+    font-size: 25%;
     color: black;
 }
 
@@ -83,7 +83,7 @@ input{
 }
 
 .footerLogo{
-    font-size: 300%;
+    font-size: 180%;
     /*background-color: white;
      border: white solid;
     border-radius: 10px;
@@ -102,4 +102,8 @@ input{
 
 .footerBG{
     background-color: rgb(187, 47, 72);
+}
+
+.footerTextColor{
+    color: white;
 }

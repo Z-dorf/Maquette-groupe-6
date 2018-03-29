@@ -97,6 +97,8 @@ input{
 
 .section-logo{
     background: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footerLogo{

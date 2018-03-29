@@ -23,8 +23,6 @@
     padding-bottom: 1%;
 }
 
-/* background color : rgb 190 46 71 */ 
-
 /* Main */
 
 
@@ -42,8 +40,6 @@ section{
     background-color: rgb(190, 46, 71);
     display: flex;
     flex-direction: row;
-    /* align-items: center;
-    justify-content: space-around;  */
 }
 
 .section-img{
@@ -107,10 +103,6 @@ input{
 
 .footerLogo{
     font-size: 400%;
-    /*background-color: white;
-     border: white solid;
-    border-radius: 10px;
-    border-style: hidden;*/
 }
  
 .logo{
@@ -122,8 +114,6 @@ input{
 
 
 .footerBG{
-    /*background-color: rgb(187, 47, 72);*/
     background-image: url("media/img/footer.png");
-    /*background-size: 50%;*/
     background-repeat: no-repeat;
 }

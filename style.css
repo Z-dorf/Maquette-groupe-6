@@ -91,6 +91,11 @@ img.main-img:last-child{
     margin-bottom: 10%;
 }
 
+.sectionImg:hover{ /*pour format Laptop/Tablet*/
+    position: relative; 
+    top: -5px;
+} 
+
 .bg-mosaique{
     background: url("media/background+header/background.png") no-repeat;
     background-size: 100% 100%;    

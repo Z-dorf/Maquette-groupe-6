@@ -6,7 +6,14 @@
    }
 
 
+*{
+    overflow-x: hidden;
+}
+
+
 /*Header*/
+
+
 
 .headerH1{
     text-align: center;
@@ -49,7 +56,6 @@ section{
 img{
     width: 100%;
     height: 100%;
-    
 }
 
 img.main-img{
@@ -65,8 +71,7 @@ img.main-img:last-child{
 
 .bg-mosaique{
     background: url("media/background+header/background.png") no-repeat;
-    background-size: 100% 100%;
-    
+    background-size: 100% 100%;    
 }
 
 .formulaire{
@@ -87,10 +92,11 @@ input{
     background: none;
 }
 
-.formulaire-message{
-    height: 5em; /*ne marche pas sous FF */
-}
 
+textarea.form-control-background{
+    background: none;
+    resize: none;
+}
 
 
 /*Footer*/

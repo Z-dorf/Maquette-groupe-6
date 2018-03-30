@@ -5,7 +5,6 @@
              url("font/manteka/manteka.ttf") format("ttf");
    }
 
-
 *{
     overflow-x: hidden;
 }
@@ -21,7 +20,29 @@
     width: 100%;
     height: 100%;
     }
+
+    h1.headerH1-xs{
+        font-size: 170%;
+    }
+
+    .footerLogo-xs{
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        font-size: 150%;
+    }
+    
+    .section-logo-lg{
+        display: none;
+    }
+
+    .section-logo{
+        background: none;
+        display: flex;
+        justify-content: space-around;
+    }
 }
+
 
 @media (min-width: 768px){
 
@@ -29,10 +50,27 @@
         display: flex;
         flex-direction: row;
     }
+    h1.headerH1-xl{
+        font-size: 390%;
+    }
   
     img{
         width: 100%;
         height: auto;
+    }
+
+    .sectionImg:hover{ /*pour format Laptop/Tablet*/
+        position: relative; 
+        top: -10px;
+    }
+
+    .section-logo{
+        display: none;
+    }
+
+    .footerLogo{
+        overflow: hidden;
+        font-size: 600%;
     }
 }
 
@@ -79,8 +117,6 @@ section{
     background: none;
 }
 
-
-
 img.main-img{
     padding-left: 0;
     padding-right: 0;
@@ -91,15 +127,14 @@ img.main-img:last-child{
     margin-bottom: 10%;
 }
 
-.sectionImg:hover{ /*pour format Laptop/Tablet*/
-    position: relative; 
-    top: -5px;
-} 
+
 
 .bg-mosaique{
     background: url("media/background+header/background.png") no-repeat;
     background-size: 100% 100%;    
 }
+
+/*Formulaire */
 
 .formulaire{
     padding: 5%;
@@ -128,23 +163,24 @@ textarea.form-control-background{
 
 /*Footer*/
 
-.section-logo{
-    background: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-.footerLogo{
-    font-size: 400%;
-}
- 
 .logo{
     color: white;
     max-height: 12%;
     max-width: 12%;
 } 
 
+nav.logoflex{
+    display:flex;
+    justify-content: space-between;
+}
+
 .footerBG{
-    background-image: url("media/img/footer.png");
+    background-color: rgba(255, 255, 255, 0.4);
+    background-image: url("media/img/footer4.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+.section-padding-bottom{
+    padding-bottom: 0;
 }

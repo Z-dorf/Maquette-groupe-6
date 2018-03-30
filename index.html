@@ -59,14 +59,18 @@
             </section>
 
             <form method="post" class="container-fluid formulaire">
-                <label class="col-6 formulaire-champs">Prénom </label>
-                <input type="text" class="col-6">
-                <label class="col-6 formulaire-champs">Nom </label>
-                <input type="text" class="col-6">
-                <label class="col-6 formulaire-champs">Mail </label>
-                <input type="email" class="col-6">
-                <label class="col-6 formulaire-champs">Message </label>
-                <textarea class="col-8 form-control-background" rows="5" id="comment"></textarea>
+                <div class="formulaire-div container col-12 col-md-6">
+                    <label class="formulaire-champs">Prénom </label>
+                    <input type="text" class="" rows="2">
+                    <label class="formulaire-champs">Nom </label>
+                    <input type="text" class="" rows="2">
+                    <label class="formulaire-champs">Mail </label>  <!-- flex box -->
+                    <input type="email" class="" rows="2">
+                </div>
+                <div class="form-group formulaire-div container col-12 col-md-6">
+                    <label class="formulaire-champs">Message </label>
+                    <textarea class= "col-8 form-control-background" rows="5" id="comment"></textarea>
+                </div>
             </form>
 
             <section class="section-logo">

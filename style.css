@@ -41,6 +41,12 @@
         display: flex;
         justify-content: space-around;
     }
+    
+    .formulaire-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
@@ -71,6 +77,16 @@
     .footerLogo{
         overflow: hidden;
         font-size: 600%;
+    }
+    
+    .formulaire{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .formulaire-div{
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -139,13 +155,10 @@ img.main-img:last-child{
 .formulaire{
     padding: 5%;
     background-color: rgba(0, 0, 0, 0.4);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 label.formulaire-champs{
-    display: flex;
+    /* display: flex; */
     color: white;
     padding-left: 0;
 }

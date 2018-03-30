@@ -21,7 +21,15 @@
     width: 100%;
     height: 100%;
     }
+
+    .formulaire-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
+
+
 
 @media (min-width: 768px){
 
@@ -33,6 +41,16 @@
     img{
         width: 100%;
         height: auto;
+    }
+
+    .formulaire{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .formulaire-div{
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -104,13 +122,10 @@ img.main-img:last-child{
 .formulaire{
     padding: 5%;
     background-color: rgba(0, 0, 0, 0.4);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 label.formulaire-champs{
-    display: flex;
+    /* display: flex; */
     color: white;
     padding-left: 0;
 }

@@ -11,6 +11,7 @@
 }
 
 @media (max-width: 767px){
+
     .menu-desktop{
         display: flex;
         flex-direction: column;
@@ -35,8 +36,9 @@
     }
 }
 
-/*Header*/
 
+
+/*Header*/
 
 
 .headerH1{
